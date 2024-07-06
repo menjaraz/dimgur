@@ -11,7 +11,7 @@ import std.range : iota;
 import std.regex : regex, split;
 import std.stdio :  File, writef, writefln, writeln;
 import std.socket : InternetAddress, TcpSocket;
-import std.socketstream : SocketStream;
+import undead.socketstream : SocketStream;
 
 class Image : Thread
 	{
